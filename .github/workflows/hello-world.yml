@@ -10,10 +10,10 @@ jobs:
 
     steps:
       - name: Bước 1 - Xin chào
-      run: echo "Hello HUTECH!"
+        run: echo "Hello HUTECH!"
 
       - name: Bước 2 - Tải code
-      uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v6.0.2  # Cập nhật version mới nhất nếu cần
 
       - name: Bước 3 - Đọc file
-      run: cat README.md
+        run: cat README.md
